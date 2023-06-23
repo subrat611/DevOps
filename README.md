@@ -32,5 +32,40 @@
     - Kubernetes
   ```
 
+- YAML is collection of documents
+- document are separate with --- and ending with ...
+
+```yml
+# lists
+- apple
+- mango
+- banana
+---
+# key value
+cities:
+  - new delhi
+  - mumbai
+  - jaipur
+---
+"apple": "I am a fruit"
+1: "I am a Id"
+...
+```
+
+### Where it is used?
+
+- Configuration files
+- Infrastructure as Code (IaC) - Kubernetes, Docker Compose, or Ansible
+- Continuous Integration/Continuous Deployment (CI/CD)
+- Data interchange
+
+### Benefits
+
+- Simple and easy to read
+- It has a strict syntax (indentation)
+- Easily converted to JSON, XML
+- Most languages use YAML
+- More powerful when representing complex data
+- Parsing is easy i.e reading is easy
 
 🚀[Back to top](#table-of-contents)

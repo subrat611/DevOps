@@ -1,0 +1,21 @@
+# single line comment, no multiline comment
+
+# lists
+- apple
+- mango
+- banana
+---
+# key value
+cities:
+ - new delhi
+ - mumbai
+ - jaipur
+---
+# or you can use this method
+cities: [new delhi, mumbai, jaipur]
+---
+{mango: "yellow", age: 56}
+---
+"apple": "I am a fruit"
+1: "I am a Id"
+...
