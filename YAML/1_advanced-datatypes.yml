@@ -1,0 +1,79 @@
+# sequence data
+student: !!seq
+ - marks
+ - name
+ - roll_no
+
+# like this also
+cities: [new delhi, mumbai]
+
+# some of the keys of the seq will be empty
+# sparse seq
+sparse seq:
+ - hey
+ - how
+ -
+ - Null
+ - sup
+
+
+# nested sequence
+-
+ - mango
+ - apple
+ - banana
+-
+ - marks
+ - roll num
+ - date
+
+# nested mapping: map within an map
+name: dawn juan
+role:
+  age: 78
+  job: student
+
+# same as
+role: { age: 78, job: student }
+
+
+# pairs: keys may have duplicate values
+# !!pairs
+
+# this will array of hashtables
+pair example: !!pairs
+ - job: student
+ - job: teacher
+
+# same as
+pair example: !!pairs [job: student, job: teacher]
+
+# !!set will allow you to have unique values
+names: !!set
+ ? dawn
+ ? juan
+
+
+# dictionary
+people: !!omap
+ - dawn:
+    name: dawn juan
+    age: 78
+ - yanr:
+    name: yanr jsan
+    age: 68
+
+
+# reusing some properties using anchors
+address: @add
+ home: st. jawan colony
+ pin: 777777
+
+p one:
+ name: dawn juan
+ <<: *add
+
+p two:
+ name: juan call
+ <<: *add
+ pin: 666666 # overwrite values

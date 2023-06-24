@@ -68,4 +68,20 @@ cities:
 - More powerful when representing complex data
 - Parsing is easy i.e reading is easy
 
+## Sparse sequence
+
+  - A sparse sequence refers to a list or array where the elements are not necessarily contiguous or consecutive. It allows you to have gaps or missing elements within a sequence.
+
+  ```yml
+  fruits:
+   - apple
+   - 
+   - orange
+   - 
+   - banana
+  ```
+
+
 🚀[Back to top](#table-of-contents)
+
+---

@@ -1,0 +1,47 @@
+# String variables(value are variable)
+myself: roboto dawn
+fruit: "apple"
+job: 'swe'
+
+# multiline
+bio: |
+hey I am roboto dawn.
+I am a very nice swe.
+
+# write a sinle line in multiple line
+message: >
+this 
+will all be
+in one single line
+
+# the above is same as message: this will all be in one single line
+
+# other data types
+number: 546
+marks: 98.74
+booleanValue: No # n, N, false, False, FALSE same for true
+
+# specify the type
+
+# key: !!type variable/value
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: !!int -45
+binaryNum: !!int 0b11001
+octalNum: !!int 06574
+hexa: !!int 0x45
+commaValue: !!int +540_000 # 540,000
+
+# floting point numbers
+marks: !!float 56.89
+infinite: !!float .inf
+not a num: .negativeNum
+
+# boolean
+booleanValue: !!bool No
+message: !!str this is str type
+
+# dates and time
+date: !!timestamp 2023-07-15
+start_time: "09:00:00"
+end_time: "17:00:00"
