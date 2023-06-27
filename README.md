@@ -2,6 +2,8 @@
 
 - [What is YAML](#what-is-yaml)
 - [Docker](#docker)
+- [Docker Runtime](#docker-runtime)
+- [Docker Container Image](#docker-container-image)
 
 ---
 
