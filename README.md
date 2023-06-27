@@ -88,12 +88,37 @@ fruits:
 ## Docker
 
 - A container is a lightweight and isolated runtime environment that packages an application and its dependencies together.
+
 - Ensuring that they work the same way across different systems.
+
 - Containers utilize operating system-level virtualization to isolate processes and resources, allowing multiple containers to run on a single host machine.
 
 <img src="https://www.docker.com/wp-content/uploads/2021/11/docker-containerized-and-vm-transparent-bg.png" />
 
 - Containers provide a lightweight and efficient way to package and run applications, sharing the host kernel and resources. They offer portability, scalability, and a rich ecosystem of tools. Virtual machines, on the other hand, provide stronger isolation but come with higher resource overhead and slower startup times.
+
+## Docker Runtime
+
+- It start/stop the containers. Docker run time refers to the duration or execution time of a Docker container. It represents the period during which a container is running and performing its designated tasks.
+
+<img src="https://www.docker.com/wp-content/uploads/2021/10/Docker-Website-2018-Diagrams-071918-V5_a-Docker-Engine-page-first-panel.png" />
+
+- Also known as runc.
+
+- **containerd** manage the **runc**. Containerd is an open-source container runtime that provides a lightweight and consistent interface for managing container lifecycle, image management, and low-level container runtime operations
+
+- **Orchestration** in Docker refers to the management and coordination of multiple Docker containers within a distributed system. It involves automating various tasks related to container deployment, scaling, networking, and service discovery to ensure the efficient and reliable operation of containerized applications.
+
+## Docker Container Image
+
+- A Docker container image is a lightweight, standalone, and executable software package that includes everything needed to run a piece of software, including the code, runtime, system tools, libraries, and dependencies. `It is the building block for creating and running Docker containers.`
+
+- A Docker image is created based on a specific configuration defined in a Dockerfile, which specifies the instructions for building the image.
+
+- The Dockerfile typically includes details such as the base image, application code, environment variables, network ports, and any additional software or configurations required.
+
+- **`Docker file -> Image -> Container`**
+- Think in oops Image is **Class** and container is **Object**
 
 🚀[Back to top](#table-of-contents)
 
