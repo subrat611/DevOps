@@ -1,6 +1,7 @@
 ## Table of contents
 
 - [What is YAML](#what-is-yaml)
+- [Docker](#docker)
 
 ---
 
@@ -49,7 +50,6 @@ cities:
 ---
 "apple": "I am a fruit"
 1: "I am a Id"
-...
 ```
 
 ### Where it is used?
@@ -70,17 +70,30 @@ cities:
 
 ## Sparse sequence
 
-  - A sparse sequence refers to a list or array where the elements are not necessarily contiguous or consecutive. It allows you to have gaps or missing elements within a sequence.
+- A sparse sequence refers to a list or array where the elements are not necessarily contiguous or consecutive. It allows you to have gaps or missing elements within a sequence.
 
-  ```yml
-  fruits:
-   - apple
-   - 
-   - orange
-   - 
-   - banana
-  ```
+```yml
+fruits:
+  - apple
+  -
+  - orange
+  -
+  - banana
+```
 
+🚀[Back to top](#table-of-contents)
+
+---
+
+## Docker
+
+- A container is a lightweight and isolated runtime environment that packages an application and its dependencies together.
+- Ensuring that they work the same way across different systems.
+- Containers utilize operating system-level virtualization to isolate processes and resources, allowing multiple containers to run on a single host machine.
+
+<img src="https://www.docker.com/wp-content/uploads/2021/11/docker-containerized-and-vm-transparent-bg.png" />
+
+- Containers provide a lightweight and efficient way to package and run applications, sharing the host kernel and resources. They offer portability, scalability, and a rich ecosystem of tools. Virtual machines, on the other hand, provide stronger isolation but come with higher resource overhead and slower startup times.
 
 🚀[Back to top](#table-of-contents)
 
