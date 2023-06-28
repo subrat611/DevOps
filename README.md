@@ -122,6 +122,8 @@ fruits:
 - **`Docker file -> Image -> Container`**
 - Think in oops Image is **Class** and container is **Object**
 
+<img src="https://cdn-images-1.medium.com/max/1600/1*bIQOZL_pZujjrfaaYlQ_gQ.png" />
+
 🚀[Back to top](#table-of-contents)
 
 ---
